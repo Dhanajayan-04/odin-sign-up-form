@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <h1 class="main-heading">Chess Game</h1>
+            <div class="container">
+               <h2>Sign up</h2>
+               <form action="#" method="get" id="Sign-up-form">
+
+            <div class="form-row">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text" placeholder="First Name" pattern="[A-Za-z]{3,10}" id="first-name" 
+                title="Name must be 3 to 10 characters long and should only contain alphabets." required>
+            </div>
+
+            <div class="form-row">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text" placeholder="Last Name" pattern="[A-Za-z]+" id="last-name"
+                title="Name should only contain alphabets." required>
+            </div>
+
+            <div class="form-row">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+
+            <div class="form-row">
+                <ion-icon name="call-outline"></ion-icon>
+                <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}"
+                title="Phone number should contain 10 digits" required>
+            </div>
+
+            <div class="form-row">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" placeholder="Password" id="password"
+                pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                title="Password must contain at least eight characters, including numbers, alphabets, and symbols."
+                required>
+            </div>
+
+            <div class="form-row">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" placeholder="Confirm Password" id="confirm-password"
+                pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                title="Password must contain at least eight characters, including numbers, alphabets, and symbols."
+                required>
+            </div>
+
+            <div class="acc-button">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

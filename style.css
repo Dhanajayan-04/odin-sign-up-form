@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: url('images/chess-board.jpg') no-repeat center center/cover;
+}
+
+.main-heading {
+  font-family: 'Playfair Display', serif; 
+  font-size: 48px; 
+  color: #fff;
+  text-shadow: 2px 2px black;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 100%;            
+  margin-bottom: 30px;    
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6); 
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 30px 40px;
+  max-width: 650px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 33px;
+  letter-spacing: 1px;
+  font-family: Georgia, serif;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 20px; 
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+ion-icon {
+  color: white;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  padding: 6px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.acc-button {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+button {
+  margin-top: 0px;
+  padding: 10px 25px;
+  background: linear-gradient(90deg, #6a3e1a, #b5732a);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #b5732a, #6a3e1a);
+}
+
+a {
+  color: #b5732a;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input:focus:valid {
+  border-bottom: 2px solid #00ff7f;
+}
+
+input:focus:invalid {
+  border-bottom: 2px solid #ff4d4d;
+}
