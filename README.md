@@ -6,7 +6,7 @@ This project is part of The Odin Project's Foundation Course, designed to practi
 
 ## Project Overview
 
-The odin-sign-up-form is a clean and modern web page that replicates a typical sign-up form. It serves as a hands-on exercise to deepen my understanding of HTML structure, CSS styling, flexbox/grid layout, and client-side form validation.
+The odin-sign-up-form is a clean and modern web page that replicates a typical sign-up form. It serves as a hands-on exercise to deepen my understanding of HTML structure, CSS styling, flexbox/grid layout, and client-side form validations.
 
 ## Features
 
@@ -35,4 +35,4 @@ To work on this project locally or further customize it, follow these steps:
 ## Acknowledgments
 
 - This project was created as part of The Odin Project's Foundation Course.
-- Special thanks to the open-source community for providing resources and inspiration.
+- Special thanks to the open-source community for providing the resources and inspiration.
