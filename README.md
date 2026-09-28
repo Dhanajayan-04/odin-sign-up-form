@@ -14,6 +14,7 @@ The odin-sign-up-form is a clean and modern web page that replicates a typical s
 - Custom input validation for password fields and required fields.
 - Clear feedback to users when form inputs are invalid.
 - Layout that adapts gracefully to different screen sizes.
+- User-friendly interface with smooth and intuitive form interactions.
 
 ## Usage
 
