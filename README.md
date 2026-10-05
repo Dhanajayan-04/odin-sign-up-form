@@ -2,7 +2,7 @@
 
 ![odin-sign-up-form Demo](images/Screenshot.png)
 
-This project is part of The Odin Project's Foundation Course, designed to practice HTML, CSS, and basic form validation by building a responsive sign-up form.
+This project is part of the Odin Project's Foundation Course, designed to practice HTML, CSS, and basic form validation by building a responsive sign-up form.
 
 ## Project Overview
 
